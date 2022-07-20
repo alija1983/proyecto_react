@@ -1,17 +1,13 @@
-import React from 'react'
-import './App.css';
-import navbar from "./components/navbar/Navbar"
+import './App.css'
+import Navbar from './components/navbar/Navbar'
 
-
-
-const App = () => {
+function App() {
   return (
     <div>
-        
-<Navbar></Navbar>
+<Navbar/>
 
     </div>
   )
-}
+  }
 
 export default App
